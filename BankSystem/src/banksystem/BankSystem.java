@@ -10,6 +10,7 @@ public class BankSystem {
         account.deposit(500);
 
         account.withdraw(300);
+        account.withdraw(400);
 
         System.out.println("Current Balance: " + account.getBalance());
     }
